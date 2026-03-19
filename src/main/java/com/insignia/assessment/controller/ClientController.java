@@ -1,6 +1,7 @@
 package com.insignia.assessment.controller;
 
-import com.insignia.assessment.model.*;
+import com.insignia.assessment.model.Client;
+import com.insignia.assessment.model.ClientRequest;
 import com.insignia.assessment.service.ClientService;
 import org.springframework.web.bind.annotation.*;
 

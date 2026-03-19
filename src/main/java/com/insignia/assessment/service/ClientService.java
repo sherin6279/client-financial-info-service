@@ -43,9 +43,9 @@ public class ClientService {
 
         client.setInvestmentGoal(goal);
 
-        Beneficiary ben = new Beneficiary();
-        ben.setName(req.beneficiary().name());
-        ben.setRelation(req.beneficiary().relation());
+        Beneficiary benificiary = new Beneficiary();
+        benificiary.setName(req.beneficiary().name());
+        benificiary.setRelation(req.beneficiary().relation());
 
 
         return repo.save(client);
