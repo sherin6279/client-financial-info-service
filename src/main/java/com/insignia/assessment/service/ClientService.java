@@ -47,6 +47,7 @@ public class ClientService {
         benificiary.setName(req.beneficiary().name());
         benificiary.setRelation(req.beneficiary().relation());
 
+        client.setBeneficiary(benificiary);
 
         return repo.save(client);
     }
